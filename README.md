@@ -4,7 +4,7 @@
 
 ```
 try:
-    from loggers.log_settings import *
+    from logger.log_settings import *
 except Exception as e:
     # in case of any error, pass silently.
     pass
